@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Student Exam Performance Dashboard — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Web framework / UI
+streamlit>=1.35.0
+
+# Data wrangling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Interactive visualisation
+plotly>=5.18.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# OLS trendlines in plotly scatter charts
+statsmodels>=0.14.0
+
+# Optional — used internally by pandas for faster CSV reads
+pyarrow>=14.0.0
